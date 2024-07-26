@@ -48,8 +48,8 @@ window.onscroll = () => {
  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
  ScrollReveal().reveal('.home-img, .services-container, .projects-box, .contact form', { origin: 'bottom' });
  ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
- ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
- ScrollReveal().reveal('.home-content, .container1', { origin: 'right,left' });
+ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
+ ScrollReveal().reveal('.home-content p, .projects-list', { origin: 'bottom' });
 
 
  /*==================== typed js ===============================*/

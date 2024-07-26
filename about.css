@@ -119,10 +119,10 @@ section {
 .heading {
     text-align: center;
     font-size: 4.5rem;
-    color: var(--text-color);
+    color: #B8860B;
 }
 span {
-    color: red;
+    color: black;
 }
 
 .about-content h3 {
