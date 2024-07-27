@@ -156,19 +156,6 @@ section {
     margin-left: 4rem;
 }
 
-.home-img-resize {
-    width: 400px;
-    height: 350px;
-    border-radius: 10%;
-    background-color: aqua;
-    box-shadow: 0 0 5rem aqua;
-    transition: .5s ease;
-}
-.home-img img:hover {
-    box-shadow: none;
-}
-
-
 .about-img img:hover {
     box-shadow: none;
 }
@@ -192,9 +179,6 @@ video {
 }
 .home-content {
     background: rgba(210, 210, 210,0.5);
-    width: 150rem;
-    height: 45rem;
-    margin-right: 40%;
     border-radius: 2rem;
 }
 
@@ -424,7 +408,7 @@ span{
 
 .heading {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: #B8860B;
     margin-top: 5rem;
 }
@@ -846,7 +830,7 @@ span {
     padding: 10px;
     border-radius: 4px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   /* Success Message Style */
@@ -973,11 +957,7 @@ span {
     .home-content h1 {
         font-size: 5rem;
     }
-
-    .home-img img {
-        width: 70w;
-        margin-top: 4rem;
-    }
+    
 
     .about {
         flex-direction: column-reverse;
@@ -998,7 +978,7 @@ span {
 
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
-        margin-right: 100%;
+        margin-right: 100rem;
     }
 }
 
@@ -1123,5 +1103,34 @@ span {
         top: 50%;
         right: 2%; /* Adjust this value as needed */
         transform: translateY(-50%); /* Center vertically */
+    }
+}
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .projects-list div {
+        padding: 1rem;
+        
+    }
+
+    .projects-list h4 {
+        font-size: 1.25rem;
+    }
+
+    .projects-list p {
+        font-size: 0.875rem;
+    }
+
+    .projects-list a {
+        font-size: 1.25rem;
     }
 }
